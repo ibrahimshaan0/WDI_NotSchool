@@ -1,0 +1,70 @@
+$font-url: 'https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap';
+
+$font-family: (
+    ff: (body: "'Montserrat', sans-serif",
+        heading: "'Montserrat', sans-serif",
+        menu: "'Montserrat', sans-serif",
+        button: "'Montserrat', sans-serif",
+    )
+);
+
+$font-scale: (
+    fw: (normal: normal,
+        regular: 400,
+        body: 400,
+        medium: 500,
+        sbold: 600,
+        bold: 700,
+        heading: 700,
+        ebold: 800,
+        black: 900,
+    )
+);
+
+$font-size: (
+    fz: (body: 14px,
+        h1: 58px,
+        h2: 40px,
+        h3: 24px,
+        h4: 20px,
+        h5: 16px,
+        h6: 14px,
+        link: 14px,
+        small: 12px,
+        button: 14px,
+    )
+);
+
+$font-size-tab: (
+    fz-tab: (h1: 48px,
+        h2: 32px,
+        h3: 24px,
+        h4: 20px,
+        h5: 16px,
+        h6: 14px,
+    )
+);
+
+$font-size-mob: (
+    fz-mob: (h1: 38px,
+        h2: 28px,
+        h3: 22px,
+        h4: 18px,
+        h5: 16px,
+        h6: 14px,
+    )
+);
+
+$line-height: (
+    lh: (body: 20px,
+        h1: 80px,
+        h2: 50px,
+        h3: 32px,
+        h4: 30px,
+        h5: 24px,
+        h6: 24px,
+        link: 24px,
+        small: 16px,
+        button: 22px,
+    )
+);

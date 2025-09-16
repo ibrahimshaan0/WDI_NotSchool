@@ -1,0 +1,126 @@
+@import '../utils/index';
+
+/*-----------------------------------------------------------------------------------
+
+    Theme Name: NotSchool – HTML5 Template
+    Author: Ibrahim
+    Support: support@not-school.com
+    Description: NotSchool – HTML5 Template
+    Version: 1.0
+-----------------------------------------------------------------------------------
+
+/************ TABLE OF CONTENTS ***************
+
+    01. THEME DEFAULT CSS
+    02. HEADER CSS
+    03. FOOTER CSS
+    04. HERO SECTION CSS
+    05. ABOUT SECTION CSS
+    06. SERVICES SECTION CSS
+    07. Curomer Review Section CSS
+    08. CONTACT SECTION CSS
+
+**********************************************/
+
+/*----------------------------------------*/
+/*  01. THEME DEFAULT CSS START
+/*----------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*---------------------------------
+    typography css start
+---------------------------------*/
+
+body {
+    font-family: var(--zo-ff-body);
+    font-size: var(--zo-fz-body);
+    font-weight: var(--zo-fw-body);
+    color: var(--zo-text-body);
+    line-height: var(--zo-lh-body);
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--zo-ff-heading);
+    font-weight: var(--zo-fw-heading);
+    color: var(--zo-text-heading);
+    line-height: var(--zo-lh-heading);
+    // margin-bottom: 20px;
+}
+
+h1 {
+    font-size: var(--zo-fz-h1);
+    line-height: var(--zo-lh-h1);
+}
+
+h2 {
+    font-size: var(--zo-fz-h2);
+    line-height: var(--zo-lh-h2);
+}
+
+h3 {
+    font-size: var(--zo-fz-h3);
+    line-height: var(--zo-lh-h3);
+}
+
+h4 {
+    font-size: var(--zo-fz-h4);
+    line-height: var(--zo-lh-h4);
+}
+
+h5 {
+    font-size: var(--zo-fz-h5);
+    line-height: var(--zo-lh-h5);
+}
+
+h6 {
+    font-size: var(--zo-fz-h6);
+    line-height: var(--zo-lh-h6);
+}
+
+p {
+    font-size: var(--zo-fz-body);
+    line-height: var(--zo-lh-body);
+    margin-bottom: 20px;
+    color: var(--zo-text-body);
+}
+
+/*---------------------------------
+    typography css end
+---------------------------------*/
+
+/*----------------------------------------*/
+/*  01. THEME DEFAULT CSS END
+/*----------------------------------------*/
+
+// common classes
+
+
+.p-rel {
+    position: relative;
+}
+
+.p-abs {
+    position: absolute;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}

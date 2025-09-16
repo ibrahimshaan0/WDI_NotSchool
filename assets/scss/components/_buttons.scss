@@ -1,0 +1,135 @@
+// Primary Button
+
+.primary-btn {
+    display: inline-block;
+    padding: 15px 40px;
+    color: var(--zo-common-white);
+    background-color: var(--zo-theme-primary);
+    border-radius: 5px;
+    font-size: var(--zo-fz-button);
+    font-weight: var(--zo-fw-bold);
+    line-height: var(--zo-lh-button);
+    cursor: pointer;
+    transition: 0.4s ease;
+
+    &:hover {
+        background-color: var(--zo-theme-secondary);
+    }
+}
+
+// Secondary Button
+
+.secondary-btn {
+    display: inline-block;
+    padding: 15px 40px;
+    color: var(--zo-theme-primary);
+    background-color: var(--zo-theme-transparent);
+    border: 1px solid var(--zo-theme-primary);
+    border-radius: 5px;
+    font-size: var(--zo-fz-button);
+    font-weight: var(--zo-fw-bold);
+    line-height: var(--zo-lh-button);
+    cursor: pointer;
+    transition: 0.4s ease;
+
+    &:hover {
+        color: var(--zo-common-white);
+        background-color: var(--zo-theme-primary);
+    }
+}
+
+// Link Button
+
+.link-btn {
+    display: inline-block;
+    color: var(--zo-theme-primary);
+    font-size: var(--zo-fz-button);
+    font-weight: var(--zo-fw-bold);
+    line-height: var(--zo-lh-button);
+    cursor: pointer;
+
+    &:hover {
+        font-weight: var(--zo-fw-ebold);
+    }
+}
+
+// Nav Link
+
+.nav-link {
+    display: inline-block;
+    padding: 0 10.5px;
+    color: var(--zo-text-body);
+    background-color: var(--zo-theme-transparent);
+    // border: 1px solid var(--zo-theme-primary);
+    // border-radius: 5px;
+    font-size: var(--zo-fz-button);
+    font-weight: var(--zo-fw-bold);
+    line-height: var(--zo-lh-button);
+    cursor: pointer;
+    // transition: 0.4s ease;
+
+    &:hover {
+        // color: var(--zo-common-white);
+        color: var(--zo-theme-primary);
+    }
+}
+
+// Longin Button
+
+.login-btn {
+    display: inline-block;
+    padding: 15px 40px;
+    color: var(--zo-theme-primary);
+    background-color: var(--zo-theme-transparent);
+    // border: 1px solid var(--zo-theme-primary);
+    border-radius: 5px;
+    font-size: var(--zo-fz-button);
+    font-weight: var(--zo-fw-bold);
+    line-height: var(--zo-lh-button);
+    cursor: pointer;
+    transition: 0.4s ease;
+
+    &:hover {
+        color: var(--zo-common-white);
+        background-color: var(--zo-theme-primary);
+    }
+}
+
+
+// Link Button Secondary
+
+.link-btn-secondary {
+    display: inline-block;
+    padding: 10px 20px;
+    color: var(--zo-theme-primary);
+    border: 1px solid var(--zo-theme-primary);
+    border-radius: 37px;
+    font-size: var(--zo-fz-button);
+    font-weight: var(--zo-fw-bold);
+    line-height: var(--zo-lh-button);
+    cursor: pointer;
+
+    &:hover {
+        font-weight: var(--zo-fw-ebold);
+    }
+}
+
+// Subscribe Button
+
+.subscribe-btn {
+    display: inline-block;
+    padding: 15px 22.5px;
+    background: #000;
+    color: var(--zo-common-white);
+    background-color: var(--zo-theme-primary);
+    border-radius: 5px;
+    font-size: var(--zo-fz-button);
+    font-weight: var(--zo-fw-bold);
+    line-height: var(--zo-lh-button);
+    cursor: pointer;
+    transition: 0.4s ease;
+
+    &:hover {
+        background-color: var(--zo-theme-secondary);
+    }
+}

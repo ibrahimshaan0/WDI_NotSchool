@@ -1,0 +1,243 @@
+.hero-section {
+    background: var(--zo-bg-light-blue);
+
+    .hero-container {
+        max-width: 1232px;
+        display: flex;
+        text-wrap: wrap;
+    }
+
+    .left-content {
+        padding-left: 120px;
+        padding-right: 30px;
+    }
+}
+
+.stats-section {
+    .stats-container {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+
+        h1 {
+            color: var(--zo-theme-primary);
+        }
+
+        h5 {
+            color: var(--zo-heading-primary);
+        }
+
+        // font-weight: var(--zo-fw-bold);
+    }
+}
+
+.quality-education-section {
+
+    // .section-sub-title {
+    //     color: var(--zo-text-primary);
+    // }
+
+    // .section-title {
+    //     padding: 10px 0;
+    //     color: var(--zo-heading-primary);
+    // }
+
+    .qual-edu-cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        // gap: 30px;
+        // gutter: 50px;
+        justify-content: space-between;
+
+        // .qedu-card-col {
+        //     margin: 0 30px;
+        // }
+
+        .single-card {
+            height: 268px;
+            width: 413px;
+            padding: 0 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+
+            .icon {
+                height: 72px;
+                width: 72px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+                background-color: var(--zo-icon-bg);
+            }
+
+            h5 {
+                margin: 0;
+                padding: 20px 0;
+            }
+        }
+
+        // .single-card-1 {
+        //     margin-right: 15px;
+        // }
+
+        // .single-card-2 {
+        //     margin: 0 15px;
+        // }
+
+        // .single-card-3 {
+        //     margin-left: 15px;
+        // }
+    }
+}
+
+.live-action-video-section {
+    .link-btn {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        i {
+            font-size: 18px;
+        }
+    }
+}
+
+.expert-teachers-section {
+
+    .card-img {
+        // width: 300px;
+        height: 348px;
+        position: relative;
+
+        span.onSale {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            z-index: 1;
+            padding: 10px;
+            border-radius: 5px;
+            color: var(--zo-common-white);
+            background: var(--zo-bg-red);
+        }
+
+        img {
+            height: 100%;
+            width: 100%;
+        }
+
+        .icons {
+            position: absolute;
+            left: 50%;
+            bottom: 25px;
+            transform: translateX(-50%);
+            z-index: 1;
+            font-size: var(--zo-fz-h4);
+
+            i {
+                padding: 10px;
+                border-radius: 50%;
+                color: var(--zo-common-black);
+                background: var(--zo-bg-page);
+            }
+        }
+    }
+
+    .card-subtitle {
+        padding: 26px 25px 10px 25px;
+        display: flex;
+        justify-content: space-between;
+
+        .sub-text {
+            color: var(--zo-text-primary);
+        }
+
+        .rating {
+            padding: 5px;
+            border-radius: 20px;
+            color: var(--zo-common-white);
+            background-color: var(--zo-bg-dark);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            i {
+                color: var(--zo-icon-4);
+                margin-right: 5.5px;
+            }
+        }
+    }
+
+    .card-title {
+        padding: 0 25px;
+    }
+
+    .card-desc {
+        padding: 10px 25px;
+    }
+
+    .sale-count {
+        padding: 0 25px;
+        color: var(--zo-common-gray);
+
+        span {
+            font-size: var(--zo-fz-h6);
+            font-weight: var(--zo-fw-bold);
+            line-height: var(--zo-lh-h6);
+        }
+    }
+
+    .price {
+        padding: 10px 25px;
+        font-size: var(--zo-fz-h5);
+
+        .actual-price {
+            color: var(--zo-common-light-gray);
+            margin-right: 15px;
+        }
+
+        .discount-price {
+            color: var(--zo-common-discount-price);
+            font-weight: var(--zo-fw-bold);
+            line-height: var(--zo-lh-h5);
+            margin-right: 15px;
+        }
+    }
+
+    .link-btn-secondary {
+        margin-left: 25px;
+    }
+}
+
+.client-review-section {
+    background-color: var(--zo-bg-light-blue);
+
+    .review-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 85px 85px 25px 85px;
+        background-color: var(--zo-bg-page);
+        
+        .rating {
+            font-size: var(--zo-fz-h4);
+            color: var(--zo-icon-3);
+            gap: 5px;
+            margin: 15px 0;
+        }
+
+        .review-text {
+            text-align: center;
+        }
+    }
+    
+    .customer-name-designation {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: no-wrap;
+    }
+}

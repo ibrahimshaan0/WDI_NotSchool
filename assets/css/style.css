@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "remixicon";
+  src: url("../fonts/rimixicon/remixicon.woff2") format("woff2"),
+    url("../fonts/rimixicon/remixicon.woff") format("woff"),
+    url("../fonts/rimixicon/remixicon.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat/static/Montserrat-Regular.ttf") format("truetype"),
+    url("../fonts/Montserrat/static/Montserrat-Medium.ttf") format("truetype"),
+    url("../fonts/Montserrat/static/Montserrat-SemiBold.ttf") format("truetype"),
+    url("../fonts/Montserrat/static/Montserrat-Bold.ttf") format("truetype");
+  font-weight: 400, 500, 600, 700;
+  font-style: normal;
+
+}

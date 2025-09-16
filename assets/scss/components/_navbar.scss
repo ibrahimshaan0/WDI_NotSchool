@@ -1,0 +1,40 @@
+.navbar {
+    height: 91px;
+    background-color: var(--zo-bg-light-blue);
+
+    .navbar-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav-logo {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+
+        img {
+            width: 141px;
+            height: auto;
+        }
+    }
+
+    .nav-menu {
+        margin: 0;
+        padding: 0 0 0 87px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+
+        li {
+            list-style-type: none;
+        }
+    }
+
+    .login-signup-btn {
+        padding: 0 84px 0 0;
+
+        .primary-btn {
+            text-transform: uppercase;
+        }
+    }
+}
