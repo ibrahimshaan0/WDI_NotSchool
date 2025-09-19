@@ -58,9 +58,8 @@ h5,
 h6 {
     font-family: var(--zo-ff-heading);
     font-weight: var(--zo-fw-heading);
-    color: var(--zo-text-heading);
-    line-height: var(--zo-lh-heading);
-    // margin-bottom: 20px;
+    color: var(--zo-heading-primary);
+    margin: 0;
 }
 
 h1 {
@@ -96,7 +95,7 @@ h6 {
 p {
     font-size: var(--zo-fz-body);
     line-height: var(--zo-lh-body);
-    margin-bottom: 20px;
+    // margin-bottom: 20px;
     color: var(--zo-text-body);
 }
 

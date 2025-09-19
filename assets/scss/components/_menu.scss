@@ -1,5 +1,5 @@
 .navbar {
-    height: 91px;
+    min-height: 91px;
     background-color: var(--zo-bg-light-blue);
 
     .navbar-container {
@@ -11,9 +11,11 @@
         display: flex;
         align-items: center;
         cursor: pointer;
+        // max-width: 141px;
 
         img {
-            width: 141px;
+            max-width: 141px;
+            width: 100%;
             height: auto;
         }
     }
@@ -31,7 +33,7 @@
     }
 
     .login-signup-btn {
-        padding: 0 84px 0 0;
+        padding: 0 84px;
 
         .primary-btn {
             text-transform: uppercase;
