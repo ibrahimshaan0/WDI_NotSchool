@@ -22,7 +22,7 @@
 
     .nav-menu {
         margin: 0;
-        padding: 0 0 0 87px;
+        // padding: 0 0 0 87px;
         display: flex;
         align-items: center;
         flex-direction: row;
@@ -30,13 +30,18 @@
         li {
             list-style-type: none;
         }
+
     }
 
     .login-signup-btn {
-        padding: 0 84px;
+        // padding: 0 84px;
 
         .primary-btn {
             text-transform: uppercase;
         }
+
+        // @media (max-width: 1475px) {
+        //     padding: 0 0 0 35px;
+        // }
     }
 }
