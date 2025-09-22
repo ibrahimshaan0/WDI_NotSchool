@@ -6,8 +6,15 @@
     }
 
     .main-heading {
+        max-width: 540px;
+        width: 100%;
         color: var(--zo-heading-primary);
         margin: 30px 0;
+    }
+
+    h4 {
+        max-width: 460px;
+        width: 100%;
     }
 
     .hero-row {
@@ -186,6 +193,7 @@
     //     color: var(--zo-heading-primary);
     // }
 
+
     .qual-edu-cards {
         // display: flex;
         // flex-direction: row;
@@ -249,6 +257,11 @@
         // align-items: center;
         min-height: 100%;
         height: 100%;
+
+        p {
+            max-width: 350px;
+            width: 100%;
+        }
     }
 
     .link-btn {
@@ -617,6 +630,13 @@
 
 .newsletter-section {
 
+    .titles-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 
     .newsletter-mail {
         display: flex;
