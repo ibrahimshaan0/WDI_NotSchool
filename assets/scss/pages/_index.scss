@@ -1,6 +1,26 @@
 .hero-section {
     background: var(--zo-bg-light-blue);
 
+    .left-col {
+        padding-top: 148px;
+        padding-bottom: 148px;
+
+        @media (max-width: 1220px) {
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+
+        @media (max-width: 1055px) {
+            padding-top: 60px;
+            padding-bottom: 60px;
+        }
+
+        @media (max-width: 991px) {
+            padding-top: 120px;
+            padding-bottom: 120px;
+        }
+    }
+
     .main-subtitle {
         color: var(--zo-text-primary);
     }
@@ -677,9 +697,18 @@ footer {
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
-            gap: 30px;
+            gap: 25%;
             // gutter: 50px;
-            justify-content: space-evenly;
+            // justify-content: space-evenly;
+
+            // @media (max-width: 768px) {
+            //     gap: 10%;
+            // }
+        }
+
+        .left-col,
+        .right-col {
+            min-width: 150px;
         }
 
         .footer-links {
