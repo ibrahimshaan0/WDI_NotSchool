@@ -103,6 +103,26 @@
                 width: 100%;
                 height: auto;
             }
+
+            @media (max-width: 1100px) {
+                left: 0;
+                max-width: 145px;
+            }
+
+            @media (max-width: 991px) {
+                left: -80px;
+                max-width: 182px;
+            }
+
+            @media (max-width: 880px) {
+                left: 0;
+            }
+
+            @media (max-width: 600px) {
+                max-width: 145px;
+            }
+
+
         }
 
         .right-center-img {
@@ -141,11 +161,33 @@
             }
 
             @media (max-width: 1440px) {
-                right: -15px;
+                right: -20px;
             }
 
             @media (max-width: 1435px) {
+                right: -10px;
+                max-width: 150px;
+            }
+
+            @media (max-width: 991px) {
+                right: -85px;
+                max-width: 176px;
+            }
+
+            @media (max-width: 880px) {
                 right: 0;
+            }
+
+            @media (max-width: 865px) {
+                right: -20px;
+            }
+
+            @media (max-width: 630px) {
+                right: -5px;
+            }
+
+            @media (max-width: 600px) {
+                max-width: 130px;
             }
 
 
@@ -166,7 +208,9 @@
                 height: auto;
             }
 
-
+            @media (max-width: 600px) {
+                max-width: 170px;
+            }
 
         }
     }
@@ -330,6 +374,14 @@
                 width: 100%;
                 height: auto;
             }
+
+            @media (max-width: 600px) {
+                max-width: 185px;
+            }
+
+            @media (max-width: 450px) {
+                max-width: 155px;
+            }
         }
 
         .right-center-img {
@@ -344,6 +396,14 @@
                 max-width: 132px;
                 width: 100%;
                 height: auto;
+            }
+
+            @media (max-width: 600px) {
+                max-width: 105px;
+            }
+
+            @media (max-width: 450px) {
+                max-width: 85px;
             }
         }
 
