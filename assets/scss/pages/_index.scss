@@ -612,6 +612,7 @@
         flex-wrap: nowrap;
         align-items: center;
         gap: 15px;
+        font-weight: var(--zo-fw-bold);
 
         .actual-price {
             color: var(--zo-common-light-gray);
@@ -620,7 +621,6 @@
 
         .discount-price {
             color: var(--zo-common-discount-price);
-            font-weight: var(--zo-fw-bold);
             line-height: var(--zo-lh-h5);
             // margin-right: 15px;
         }

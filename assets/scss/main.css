@@ -1791,13 +1791,13 @@ img {
   flex-wrap: nowrap;
   align-items: center;
   gap: 15px;
+  font-weight: var(--zo-fw-bold);
 }
 .expert-teachers-section .price .actual-price {
   color: var(--zo-common-light-gray);
 }
 .expert-teachers-section .price .discount-price {
   color: var(--zo-common-discount-price);
-  font-weight: var(--zo-fw-bold);
   line-height: var(--zo-lh-h5);
 }
 .expert-teachers-section .link-btn-secondary {
