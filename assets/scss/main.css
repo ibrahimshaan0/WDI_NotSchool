@@ -105,32 +105,32 @@
 
 @media only screen and (min-width: 576px) and (max-width: 767.98px), (max-width: 576px) {
   .ptb-160 {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
   .mtb-160 {
-    margin: 80px 0;
+    margin: 60px 0;
   }
   .pb-160 {
-    padding-bottom: 80px;
+    padding-bottom: 60px;
   }
   .pt-160 {
-    padding-top: 80px;
+    padding-top: 60px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
   .ptb-160 {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 110px;
+    padding-bottom: 110px;
   }
   .mtb-160 {
-    margin: 120px 0;
+    margin: 110px 0;
   }
   .pb-160 {
-    padding-bottom: 120px;
+    padding-bottom: 110px;
   }
   .pt-160 {
-    padding-top: 120px;
+    padding-top: 110px;
   }
 }
 .ptb-148 {
@@ -152,17 +152,17 @@
 
 @media only screen and (min-width: 576px) and (max-width: 767.98px), (max-width: 576px) {
   .ptb-148 {
-    padding-top: 74px;
-    padding-bottom: 74px;
+    padding-top: 66px;
+    padding-bottom: 66px;
   }
   .mtb-148 {
-    margin: 74px 0;
+    margin: 66px 0;
   }
   .pb-148 {
-    padding-bottom: 74px;
+    padding-bottom: 66px;
   }
   .pt-148 {
-    padding-top: 74px;
+    padding-top: 66px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
@@ -229,23 +229,23 @@
 }
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
   .ptb-130 {
-    padding-top: 98px;
-    padding-bottom: 98px;
+    padding-top: 90px;
+    padding-bottom: 90px;
   }
   .mtb-130 {
-    margin: 98px 0;
+    margin: 90px 0;
   }
   .pb-130 {
-    padding-bottom: 98px;
+    padding-bottom: 90px;
   }
   .pt-130 {
-    padding-top: 98px;
+    padding-top: 90px;
   }
   .mt-130 {
-    margin-top: 98px;
+    margin-top: 90px;
   }
   .mb-130 {
-    margin-bottom: 98px;
+    margin-bottom: 90px;
   }
 }
 .ptb-80 {
@@ -291,62 +291,62 @@
 
 @media only screen and (min-width: 576px) and (max-width: 767.98px), (max-width: 576px) {
   .ptb-80 {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 32px;
+    padding-bottom: 32px;
   }
   .mtb-80 {
-    margin: 40px 0;
+    margin: 32px 0;
   }
   .pb-80 {
-    padding-bottom: 40px;
+    padding-bottom: 32px;
   }
   .pt-80 {
-    padding-top: 40px;
+    padding-top: 32px;
   }
   .mtb-80 {
-    margin: 40px 0;
+    margin: 32px 0;
   }
   .ptb-50 {
-    padding: 30px 0;
+    padding: 24px 0;
   }
   .pb-50 {
-    padding-bottom: 30px;
+    padding-bottom: 24px;
   }
   .pt-50 {
-    padding-top: 30px;
+    padding-top: 24px;
   }
   .mtb-50 {
-    margin: 30px 0;
+    margin: 24px 0;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
   .ptb-80 {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 52px;
+    padding-bottom: 52px;
   }
   .mtb-80 {
-    margin: 60px 0;
+    margin: 52px 0;
   }
   .pb-80 {
-    padding-bottom: 60px;
+    padding-bottom: 52px;
   }
   .pt-80 {
-    padding-top: 60px;
+    padding-top: 52px;
   }
   .mtb-80 {
-    margin: 60px 0;
+    margin: 52px 0;
   }
   .ptb-50 {
-    padding: 40px 0;
+    padding: 32px 0;
   }
   .pb-50 {
-    padding-bottom: 40px;
+    padding-bottom: 32px;
   }
   .pt-50 {
-    padding-top: 40px;
+    padding-top: 32px;
   }
   .mtb-50 {
-    margin: 40px 0;
+    margin: 32px 0;
   }
 }
 .ptb-35 {
@@ -713,32 +713,32 @@
 
 @media only screen and (min-width: 576px) and (max-width: 767.98px), (max-width: 576px) {
   .ptb-160 {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
   .mtb-160 {
-    margin: 80px 0;
+    margin: 60px 0;
   }
   .pb-160 {
-    padding-bottom: 80px;
+    padding-bottom: 60px;
   }
   .pt-160 {
-    padding-top: 80px;
+    padding-top: 60px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
   .ptb-160 {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 110px;
+    padding-bottom: 110px;
   }
   .mtb-160 {
-    margin: 120px 0;
+    margin: 110px 0;
   }
   .pb-160 {
-    padding-bottom: 120px;
+    padding-bottom: 110px;
   }
   .pt-160 {
-    padding-top: 120px;
+    padding-top: 110px;
   }
 }
 .ptb-148 {
@@ -760,17 +760,17 @@
 
 @media only screen and (min-width: 576px) and (max-width: 767.98px), (max-width: 576px) {
   .ptb-148 {
-    padding-top: 74px;
-    padding-bottom: 74px;
+    padding-top: 66px;
+    padding-bottom: 66px;
   }
   .mtb-148 {
-    margin: 74px 0;
+    margin: 66px 0;
   }
   .pb-148 {
-    padding-bottom: 74px;
+    padding-bottom: 66px;
   }
   .pt-148 {
-    padding-top: 74px;
+    padding-top: 66px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
@@ -837,23 +837,23 @@
 }
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
   .ptb-130 {
-    padding-top: 98px;
-    padding-bottom: 98px;
+    padding-top: 90px;
+    padding-bottom: 90px;
   }
   .mtb-130 {
-    margin: 98px 0;
+    margin: 90px 0;
   }
   .pb-130 {
-    padding-bottom: 98px;
+    padding-bottom: 90px;
   }
   .pt-130 {
-    padding-top: 98px;
+    padding-top: 90px;
   }
   .mt-130 {
-    margin-top: 98px;
+    margin-top: 90px;
   }
   .mb-130 {
-    margin-bottom: 98px;
+    margin-bottom: 90px;
   }
 }
 .ptb-80 {
@@ -899,62 +899,62 @@
 
 @media only screen and (min-width: 576px) and (max-width: 767.98px), (max-width: 576px) {
   .ptb-80 {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 32px;
+    padding-bottom: 32px;
   }
   .mtb-80 {
-    margin: 40px 0;
+    margin: 32px 0;
   }
   .pb-80 {
-    padding-bottom: 40px;
+    padding-bottom: 32px;
   }
   .pt-80 {
-    padding-top: 40px;
+    padding-top: 32px;
   }
   .mtb-80 {
-    margin: 40px 0;
+    margin: 32px 0;
   }
   .ptb-50 {
-    padding: 30px 0;
+    padding: 24px 0;
   }
   .pb-50 {
-    padding-bottom: 30px;
+    padding-bottom: 24px;
   }
   .pt-50 {
-    padding-top: 30px;
+    padding-top: 24px;
   }
   .mtb-50 {
-    margin: 30px 0;
+    margin: 24px 0;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
   .ptb-80 {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 52px;
+    padding-bottom: 52px;
   }
   .mtb-80 {
-    margin: 60px 0;
+    margin: 52px 0;
   }
   .pb-80 {
-    padding-bottom: 60px;
+    padding-bottom: 52px;
   }
   .pt-80 {
-    padding-top: 60px;
+    padding-top: 52px;
   }
   .mtb-80 {
-    margin: 60px 0;
+    margin: 52px 0;
   }
   .ptb-50 {
-    padding: 40px 0;
+    padding: 32px 0;
   }
   .pb-50 {
-    padding-bottom: 40px;
+    padding-bottom: 32px;
   }
   .pt-50 {
-    padding-top: 40px;
+    padding-top: 32px;
   }
   .mtb-50 {
-    margin: 40px 0;
+    margin: 32px 0;
   }
 }
 .ptb-35 {
