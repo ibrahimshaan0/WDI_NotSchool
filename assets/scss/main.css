@@ -61,16 +61,16 @@
   --zo-fz-button: 14px;
   --zo-fz-mob-h1: 38px;
   --zo-fz-mob-h2: 28px;
-  --zo-fz-mob-h3: 22px;
-  --zo-fz-mob-h4: 18px;
-  --zo-fz-mob-h5: 16px;
-  --zo-fz-mob-h6: 14px;
-  --zo-fz-tab-h1: 48px;
+  --zo-fz-mob-h3: 24px;
+  --zo-fz-mob-h4: 22px;
+  --zo-fz-mob-h5: 20px;
+  --zo-fz-mob-h6: 16px;
+  --zo-fz-tab-h1: 42px;
   --zo-fz-tab-h2: 32px;
-  --zo-fz-tab-h3: 24px;
-  --zo-fz-tab-h4: 20px;
-  --zo-fz-tab-h5: 16px;
-  --zo-fz-tab-h6: 14px;
+  --zo-fz-tab-h3: 30px;
+  --zo-fz-tab-h4: 22px;
+  --zo-fz-tab-h5: 20px;
+  --zo-fz-tab-h6: 16px;
   /**
   @line height declaration
   */
@@ -669,16 +669,16 @@
   --zo-fz-button: 14px;
   --zo-fz-mob-h1: 38px;
   --zo-fz-mob-h2: 28px;
-  --zo-fz-mob-h3: 22px;
-  --zo-fz-mob-h4: 18px;
-  --zo-fz-mob-h5: 16px;
-  --zo-fz-mob-h6: 14px;
-  --zo-fz-tab-h1: 48px;
+  --zo-fz-mob-h3: 24px;
+  --zo-fz-mob-h4: 22px;
+  --zo-fz-mob-h5: 20px;
+  --zo-fz-mob-h6: 16px;
+  --zo-fz-tab-h1: 42px;
   --zo-fz-tab-h2: 32px;
-  --zo-fz-tab-h3: 24px;
-  --zo-fz-tab-h4: 20px;
-  --zo-fz-tab-h5: 16px;
-  --zo-fz-tab-h6: 14px;
+  --zo-fz-tab-h3: 30px;
+  --zo-fz-tab-h4: 22px;
+  --zo-fz-tab-h5: 20px;
+  --zo-fz-tab-h6: 16px;
   /**
   @line height declaration
   */
@@ -1720,6 +1720,7 @@ img {
   border-radius: 5px;
   color: var(--zo-common-white);
   background: var(--zo-bg-red);
+  font-weight: var(--zo-fw-bold);
 }
 .expert-teachers-section .card-img img {
   max-height: 348px;
@@ -1753,6 +1754,7 @@ img {
 }
 .expert-teachers-section .card-subtitle .sub-text {
   color: var(--zo-text-primary);
+  font-weight: var(--zo-fw-bold);
 }
 .expert-teachers-section .card-subtitle .rating {
   padding: 5px;
