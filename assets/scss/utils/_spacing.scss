@@ -1,43 +1,73 @@
 @import 'breakpoints';
 
 //Section Spacing
-.ptb-160 { padding-top: 160px; padding-bottom: 160px; }
+.ptb-160 { padding: 160px 0; }
 .pb-160 { padding-bottom: 160px; }
 .pt-160 { padding-top: 160px; }
 .mtb-160 { margin: 160px 0; }
 
 @media #{ $sm, $xs } {
-    .ptb-160 { padding-top: 60px; padding-bottom: 60px; }
+    .ptb-160 { padding: 60px 0; }
     .mtb-160 { margin: 60px 0; }
     .pb-160 { padding-bottom: 60px; }
     .pt-160 { padding-top: 60px; }
 }
 
 @media #{ $md } {
-    .ptb-160 { padding-top: 110px; padding-bottom: 110px; }
+    .ptb-160 { padding: 110px 0; }
     .mtb-160 { margin: 110px 0; }
     .pb-160 { padding-bottom: 110px; }
     .pt-160 { padding-top: 110px; }
 }
 
-.ptb-148 { padding-top: 148px; padding-bottom: 148px; }
+.ptb-148 { padding: 148px 0; }
 .pb-148 { padding-bottom: 148px; }
 .pt-148 { padding-top: 148px; }
 .mtb-148 { margin: 148px 0; }
 
 @media #{ $sm, $xs } {
-    .ptb-148 { padding-top: 66px; padding-bottom: 66px; }
+    .ptb-148 { padding: 66px 0; }
     .mtb-148 { margin: 66px 0; }
     .pb-148 { padding-bottom: 66px; }
     .pt-148 { padding-top: 66px; }
 }
 
-@media #{ $md } {
-    .ptb-148 { padding-top: 110px; padding-bottom: 110px; }
-    .mtb-148 { margin: 110px 0; }
-    .pb-148 { padding-bottom: 110px; }
-    .pt-148 { padding-top: 110px; }
+// @media #{ $md } {
+//     .ptb-148 { padding: 60px 0; }
+//     .mtb-148 { margin: 60px 0; }
+//     .pb-148 { padding-bottom: 60px; }
+//     .pt-148 { padding-top: 60px; }
+//     .mb-148 { margin-bottom: 60px; }
+//     .mt-148 { margin-top: 60px; }
+// }
+
+@media #{ $lg } {
+    .ptb-148 { padding: 78px 0; }
+    .pb-148 { padding-bottom: 78px; }
+    .pt-148 { padding-top: 78px; }
+    .mtb-148 { margin: 78px 0; }
+    .mb-148 { margin-bottom: 78px; }
+    .mt-148 { margin-top: 78px; }
 }
+// .left-col {
+//         padding-top: 148px;
+//         padding-bottom: 148px;
+
+//         @media (max-width: 1220px) {
+//             padding-top: 100px;
+//             padding-bottom: 100px;
+//         }
+
+//         @media (max-width: 1055px) {
+//             padding-top: 60px;
+//             padding-bottom: 60px;
+//         }
+
+//         @media (max-width: 991px) {
+//             padding-top: 120px;
+//             padding-bottom: 120px;
+//         }
+//     }
 
 .ptb-130 { padding-top: 130px; padding-bottom: 130px; }
 .pb-130 { padding-bottom: 130px; }
@@ -141,5 +171,9 @@
 
 .g-20 {
   --bs-gutter-x: 20px; 
-  --bs-gutter-y: 20px;
+
+  @media #{$md, $sm, $xs } {
+    --bs-gutter-y: 20px; 
+  }
+
 }

@@ -87,8 +87,7 @@
 }
 
 .ptb-160 {
-  padding-top: 160px;
-  padding-bottom: 160px;
+  padding: 160px 0;
 }
 
 .pb-160 {
@@ -105,8 +104,7 @@
 
 @media only screen and (min-width: 576px) and (max-width: 767.98px), (max-width: 576px) {
   .ptb-160 {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding: 60px 0;
   }
   .mtb-160 {
     margin: 60px 0;
@@ -120,8 +118,7 @@
 }
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
   .ptb-160 {
-    padding-top: 110px;
-    padding-bottom: 110px;
+    padding: 110px 0;
   }
   .mtb-160 {
     margin: 110px 0;
@@ -134,8 +131,7 @@
   }
 }
 .ptb-148 {
-  padding-top: 148px;
-  padding-bottom: 148px;
+  padding: 148px 0;
 }
 
 .pb-148 {
@@ -152,8 +148,7 @@
 
 @media only screen and (min-width: 576px) and (max-width: 767.98px), (max-width: 576px) {
   .ptb-148 {
-    padding-top: 66px;
-    padding-bottom: 66px;
+    padding: 66px 0;
   }
   .mtb-148 {
     margin: 66px 0;
@@ -165,19 +160,24 @@
     padding-top: 66px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
   .ptb-148 {
-    padding-top: 110px;
-    padding-bottom: 110px;
-  }
-  .mtb-148 {
-    margin: 110px 0;
+    padding: 78px 0;
   }
   .pb-148 {
-    padding-bottom: 110px;
+    padding-bottom: 78px;
   }
   .pt-148 {
-    padding-top: 110px;
+    padding-top: 78px;
+  }
+  .mtb-148 {
+    margin: 78px 0;
+  }
+  .mb-148 {
+    margin-bottom: 78px;
+  }
+  .mt-148 {
+    margin-top: 78px;
   }
 }
 .ptb-130 {
@@ -495,7 +495,11 @@
 
 .g-20 {
   --bs-gutter-x: 20px;
-  --bs-gutter-y: 20px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991.98px), only screen and (min-width: 576px) and (max-width: 767.98px), (max-width: 576px) {
+  .g-20 {
+    --bs-gutter-y: 20px;
+  }
 }
 
 .primary-btn {
@@ -695,8 +699,7 @@
 }
 
 .ptb-160 {
-  padding-top: 160px;
-  padding-bottom: 160px;
+  padding: 160px 0;
 }
 
 .pb-160 {
@@ -713,8 +716,7 @@
 
 @media only screen and (min-width: 576px) and (max-width: 767.98px), (max-width: 576px) {
   .ptb-160 {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding: 60px 0;
   }
   .mtb-160 {
     margin: 60px 0;
@@ -728,8 +730,7 @@
 }
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
   .ptb-160 {
-    padding-top: 110px;
-    padding-bottom: 110px;
+    padding: 110px 0;
   }
   .mtb-160 {
     margin: 110px 0;
@@ -742,8 +743,7 @@
   }
 }
 .ptb-148 {
-  padding-top: 148px;
-  padding-bottom: 148px;
+  padding: 148px 0;
 }
 
 .pb-148 {
@@ -760,8 +760,7 @@
 
 @media only screen and (min-width: 576px) and (max-width: 767.98px), (max-width: 576px) {
   .ptb-148 {
-    padding-top: 66px;
-    padding-bottom: 66px;
+    padding: 66px 0;
   }
   .mtb-148 {
     margin: 66px 0;
@@ -773,19 +772,24 @@
     padding-top: 66px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
   .ptb-148 {
-    padding-top: 110px;
-    padding-bottom: 110px;
-  }
-  .mtb-148 {
-    margin: 110px 0;
+    padding: 78px 0;
   }
   .pb-148 {
-    padding-bottom: 110px;
+    padding-bottom: 78px;
   }
   .pt-148 {
-    padding-top: 110px;
+    padding-top: 78px;
+  }
+  .mtb-148 {
+    margin: 78px 0;
+  }
+  .mb-148 {
+    margin-bottom: 78px;
+  }
+  .mt-148 {
+    margin-top: 78px;
   }
 }
 .ptb-130 {
@@ -1103,7 +1107,11 @@
 
 .g-20 {
   --bs-gutter-x: 20px;
-  --bs-gutter-y: 20px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991.98px), only screen and (min-width: 576px) and (max-width: 767.98px), (max-width: 576px) {
+  .g-20 {
+    --bs-gutter-y: 20px;
+  }
 }
 
 /*-----------------------------------------------------------------------------------
@@ -1276,7 +1284,7 @@ img {
 .navbar .nav-menu li {
   list-style-type: none;
 }
-@media (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 991.98px), only screen and (min-width: 576px) and (max-width: 767.98px), (max-width: 576px), (max-width: 450px) {
   .navbar .nav-menu {
     display: none;
   }
@@ -1302,28 +1310,6 @@ img {
 .hero-section {
   background: var(--zo-bg-light-blue);
 }
-.hero-section .left-col {
-  padding-top: 148px;
-  padding-bottom: 148px;
-}
-@media (max-width: 1220px) {
-  .hero-section .left-col {
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
-}
-@media (max-width: 1055px) {
-  .hero-section .left-col {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-}
-@media (max-width: 991px) {
-  .hero-section .left-col {
-    padding-top: 120px;
-    padding-bottom: 120px;
-  }
-}
 .hero-section .main-subtitle {
   color: var(--zo-text-primary);
 }
@@ -1337,12 +1323,8 @@ img {
   max-width: 460px;
   width: 100%;
 }
-.hero-section .hero-row {
-  display: flex;
-  flex-wrap: wrap;
-}
-@media (max-width: 992px) {
-  .hero-section .hero-row {
+@media only screen and (min-width: 768px) and (max-width: 991.98px), only screen and (min-width: 576px) and (max-width: 767.98px), (max-width: 576px), (max-width: 450px) {
+  .hero-section .row {
     flex-direction: column-reverse;
   }
 }
@@ -1489,38 +1471,23 @@ img {
   }
 }
 
-.stats-section .stats-container {
-  display: flex;
-  justify-content: space-between;
+.stats-section {
   text-align: center;
-  flex-wrap: wrap;
 }
-.stats-section .stats-container h1 {
+.stats-section h1 {
   min-width: 100%;
   color: var(--zo-theme-primary);
 }
-.stats-section .stats-container h5 {
+.stats-section h5 {
   min-width: 100%;
   color: var(--zo-heading-primary);
 }
-@media (max-width: 768px) {
-  .stats-section .stats-container {
-    gap: 30px;
-    justify-content: center;
-  }
-}
 
-.quality-education-section .qual-edu-cards .single-card {
-  max-height: 268px;
-  height: 268px;
-  padding: 0 40px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: start;
+.quality-education-section .single-card {
+  padding: 35px 40px;
   box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
 }
-.quality-education-section .qual-edu-cards .single-card .icon {
+.quality-education-section .single-card .icon {
   height: 72px;
   width: 72px;
   display: flex;
@@ -1529,9 +1496,15 @@ img {
   border-radius: 50%;
   background-color: var(--zo-icon-bg);
 }
-.quality-education-section .qual-edu-cards .single-card h5 {
-  margin: 0;
-  padding: 20px 0;
+.quality-education-section .single-card h5 {
+  margin: 20px 0;
+}
+.quality-education-section .single-card hr {
+  margin: 20px 0;
+  max-width: 50px;
+  opacity: 1;
+  border-radius: 5px;
+  border: 2px solid var(--zo-icon-2);
 }
 
 .live-action-video-section .left-content {
@@ -1707,7 +1680,6 @@ img {
 
 .expert-teachers-section .card-img {
   max-height: 348px;
-  min-height: 348px;
   position: relative;
   overflow: hidden;
 }
@@ -1723,9 +1695,8 @@ img {
   font-weight: var(--zo-fw-bold);
 }
 .expert-teachers-section .card-img img {
-  max-height: 348px;
-  height: 100%;
   min-height: 348px;
+  height: 100%;
   width: 100%;
 }
 .expert-teachers-section .card-img img:hover {
@@ -1747,8 +1718,10 @@ img {
   color: var(--zo-common-black);
   background: var(--zo-bg-page);
 }
+.expert-teachers-section .card-content {
+  padding: 25px 25px 35px;
+}
 .expert-teachers-section .card-subtitle {
-  padding: 26px 25px 10px 25px;
   display: flex;
   justify-content: space-between;
 }
@@ -1770,13 +1743,9 @@ img {
   margin-right: 5.5px;
 }
 .expert-teachers-section .card-title {
-  padding: 0 25px;
-}
-.expert-teachers-section .card-desc {
-  padding: 10px 25px;
+  margin: 10px 0;
 }
 .expert-teachers-section .sale-count {
-  padding: 0 25px;
   color: var(--zo-common-gray);
 }
 .expert-teachers-section .sale-count span {
@@ -1785,7 +1754,7 @@ img {
   line-height: var(--zo-lh-h6);
 }
 .expert-teachers-section .price {
-  padding: 10px 25px;
+  margin: 10px 0;
   font-size: var(--zo-fz-h5);
   display: flex;
   flex-wrap: nowrap;
@@ -1799,9 +1768,6 @@ img {
 .expert-teachers-section .price .discount-price {
   color: var(--zo-common-discount-price);
   line-height: var(--zo-lh-h5);
-}
-.expert-teachers-section .link-btn-secondary {
-  margin: 0 25px;
 }
 
 .brand-logo-section .brand-logos {

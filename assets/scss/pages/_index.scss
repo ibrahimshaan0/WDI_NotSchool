@@ -1,25 +1,7 @@
 .hero-section {
     background: var(--zo-bg-light-blue);
 
-    .left-col {
-        padding-top: 148px;
-        padding-bottom: 148px;
 
-        @media (max-width: 1220px) {
-            padding-top: 100px;
-            padding-bottom: 100px;
-        }
-
-        @media (max-width: 1055px) {
-            padding-top: 60px;
-            padding-bottom: 60px;
-        }
-
-        @media (max-width: 991px) {
-            padding-top: 120px;
-            padding-bottom: 120px;
-        }
-    }
 
     .main-subtitle {
         color: var(--zo-text-primary);
@@ -37,12 +19,8 @@
         width: 100%;
     }
 
-    .hero-row {
-        // max-width: 1232px;
-        display: flex;
-        flex-wrap: wrap;
-
-        @media (max-width: 992px) {
+    .row {
+        @media #{$md, $sm, $xs, $xss} {
             flex-direction: column-reverse;
         }
     }
@@ -218,32 +196,27 @@
 }
 
 .stats-section {
-    .stats-container {
-        display: flex;
-        justify-content: space-between;
-        text-align: center;
-        flex-wrap: wrap;
+    text-align: center;
 
-        h1 {
-            min-width: 100%;
-            color: var(--zo-theme-primary);
-        }
-
-        h5 {
-            min-width: 100%;
-            color: var(--zo-heading-primary);
-        }
-
-        // font-weight: var(--zo-fw-bold);
-
-        @media (max-width: 768px) {
-            // flex: 1 1 100%;
-            // flex-direction: column;
-            gap: 30px;
-            justify-content: center;
-            // justify-content: space-around;
-        }
+    h1 {
+        min-width: 100%;
+        color: var(--zo-theme-primary);
     }
+
+    h5 {
+        min-width: 100%;
+        color: var(--zo-heading-primary);
+    }
+
+    // font-weight: var(--zo-fw-bold);
+
+    // @media (max-width: 768px) {
+    //     // flex: 1 1 100%;
+    //     // flex-direction: column;
+    //     gap: 30px;
+    //     justify-content: center;
+    //     // justify-content: space-around;
+    // }
 }
 
 .quality-education-section {
@@ -258,58 +231,65 @@
     // }
 
 
-    .qual-edu-cards {
+    // .qual-edu-cards {
+    // display: flex;
+    // flex-direction: row;
+    // flex-wrap: wrap;
+    // gap: 30px;
+    // gutter: 50px;
+    // justify-content: space-between;
+    // margin: calc(-.5 * 30px) 0;
+
+    // .qedu-card-col {
+    //     margin: 0 30px;
+    // }
+
+    .single-card {
+        // max-height: 268px;
+        // height: 268px;
+        // // width: 413px;
+        padding: 35px 40px;
         // display: flex;
-        // flex-direction: row;
-        // flex-wrap: wrap;
-        // gap: 30px;
-        // gutter: 50px;
-        // justify-content: space-between;
-        // margin: calc(-.5 * 30px) 0;
+        // flex-direction: column;
+        // justify-content: center;
+        // align-items: start;
+        box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
 
-        // .qedu-card-col {
-        //     margin: 0 30px;
-        // }
-
-        .single-card {
-            max-height: 268px;
-            height: 268px;
-            // width: 413px;
-            padding: 0 40px;
+        .icon {
+            height: 72px;
+            width: 72px;
             display: flex;
-            flex-direction: column;
             justify-content: center;
-            align-items: start;
-            box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
-
-            .icon {
-                height: 72px;
-                width: 72px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                border-radius: 50%;
-                background-color: var(--zo-icon-bg);
-            }
-
-            h5 {
-                margin: 0;
-                padding: 20px 0;
-            }
+            align-items: center;
+            border-radius: 50%;
+            background-color: var(--zo-icon-bg);
         }
 
-        // .single-card-1 {
-        //     margin-right: 15px;
-        // }
+        h5 {
+            margin: 20px 0;
+        }
 
-        // .single-card-2 {
-        //     margin: 0 15px;
-        // }
-
-        // .single-card-3 {
-        //     margin-left: 15px;
-        // }
+        hr {
+            margin: 20px 0;
+            max-width: 50px;
+            opacity: 1;
+            border-radius: 5px;
+            border: 2px solid var(--zo-icon-2);
+        }
     }
+
+    // .single-card-1 {
+    //     margin-right: 15px;
+    // }
+
+    // .single-card-2 {
+    //     margin: 0 15px;
+    // }
+
+    // .single-card-3 {
+    //     margin-left: 15px;
+    // }
+    // }
 }
 
 .live-action-video-section {
@@ -508,9 +488,9 @@
 .expert-teachers-section {
 
     .card-img {
-        // width: 300px;
+        // width: 100%;
         max-height: 348px;
-        min-height: 348px;
+        // min-height: 348px;
         position: relative;
         overflow: hidden;
 
@@ -527,9 +507,9 @@
         }
 
         img {
-            max-height: 348px;
-            height: 100%;
+            // max-height: 348px;
             min-height: 348px;
+            height: 100%;
             width: 100%;
 
             &:hover {
@@ -560,8 +540,13 @@
         }
     }
 
+    .card-content {
+        padding: 25px 25px 35px;
+    }
+
     .card-subtitle {
-        padding: 26px 25px 10px 25px;
+        // margin-bottom: 10px;
+        // padding: 26px 25px 10px 25px;
         display: flex;
         justify-content: space-between;
 
@@ -587,15 +572,15 @@
     }
 
     .card-title {
-        padding: 0 25px;
+        margin: 10px 0;
     }
 
-    .card-desc {
-        padding: 10px 25px;
-    }
+    // .card-desc {
+    //     padding: 10px 25px;
+    // }
 
     .sale-count {
-        padding: 0 25px;
+        // padding: 0 25px;
         color: var(--zo-common-gray);
 
         span {
@@ -606,7 +591,8 @@
     }
 
     .price {
-        padding: 10px 25px;
+        margin: 10px 0;
+        // padding: 10px 25px;
         font-size: var(--zo-fz-h5);
         display: flex;
         flex-wrap: nowrap;
@@ -626,9 +612,9 @@
         }
     }
 
-    .link-btn-secondary {
-        margin: 0 25px;
-    }
+    // .link-btn-secondary {
+    //     margin: 0 25px;
+    // }
 }
 
 .brand-logo-section {
