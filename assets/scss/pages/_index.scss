@@ -131,24 +131,24 @@
             // }
 
             @media (max-width: 1470px) {
-                right: -60px;
+                right: -50px;
             }
 
             @media (max-width: 1450px) {
-                right: -40px;
+                right: -30px;
             }
 
             @media (max-width: 1440px) {
-                right: -20px;
+                right: -10px;
             }
 
             @media (max-width: 1435px) {
-                right: -10px;
+                right: -5px;
                 max-width: 150px;
             }
 
             @media (max-width: 991px) {
-                right: -85px;
+                right: -75px;
                 max-width: 176px;
             }
 
@@ -157,15 +157,15 @@
             }
 
             @media (max-width: 865px) {
-                right: -20px;
+                right: -10px;
             }
 
             @media (max-width: 630px) {
-                right: -5px;
+                right: 0;
             }
 
             @media (max-width: 600px) {
-                max-width: 130px;
+                max-width: 120px;
             }
 
 
@@ -300,7 +300,7 @@
         justify-content: center;
         // align-items: center;
         min-height: 100%;
-        height: 100%;
+        // height: 100%;
 
         p {
             max-width: 350px;
@@ -308,15 +308,15 @@
         }
     }
 
-    .link-btn {
-        display: flex;
-        align-items: center;
-        gap: 10px;
+    // .link-btn {
+    //     display: flex;
+    //     align-items: center;
+    //     gap: 10px;
 
-        i {
-            font-size: 18px;
-        }
-    }
+    //     i {
+    //         font-size: 18px;
+    //     }
+    // }
 
     .right-content {
         position: relative;
@@ -511,6 +511,7 @@
             min-height: 348px;
             height: 100%;
             width: 100%;
+            object-fit: cover;
 
             &:hover {
                 cursor: pointer;
@@ -617,41 +618,13 @@
     // }
 }
 
-.brand-logo-section {
-    .brand-logos {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-
-    .single-logo {
-        margin: 30px;
-        max-width: 150px;
-        max-height: 75px;
-        padding: 25px 0;
-
-        img {
-            max-width: 150px;
-            max-height: 75px;
-            width: auto;
-            height: auto;
-        }
-    }
-}
-
 .client-review-section {
     background-color: var(--zo-bg-light-blue);
 
     .review-card {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        padding: 85px 85px 25px 85px;
+        text-align: center;
+        padding: 85px 80px 25px;
         background-color: var(--zo-bg-page);
-        gap: 15px;
 
         .rating {
             font-size: var(--zo-fz-h4);
@@ -668,11 +641,12 @@
 
     .customer-info {
         display: flex;
+        justify-content: center;
         align-items: center;
         gap: 15px;
         flex-direction: row;
         flex-wrap: no-wrap;
-        margin: 15px 0 0 0;
+        margin: 15px 0 0;
 
         .customer-img {
             max-width: 50px;
@@ -696,6 +670,31 @@
     }
 }
 
+.brand-logo-section {
+    .brand-logos {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .single-logo {
+        // margin: 30px auto;
+        max-width: 150px;
+        max-height: 75px;
+        // padding: 25px 0;
+        // text-align: center;
+
+        img {
+            max-width: 150px;
+            max-height: 75px;
+            width: auto;
+            height: auto;
+        }
+    }
+}
+
 .newsletter-section {
 
     .titles-wrapper {
@@ -713,6 +712,7 @@
         flex-wrap: nowrap;
         margin: 0 auto;
         max-width: 688px;
+        width: 100%;
         border: 1px solid var(--zo-border-1);
         border-radius: 5px;
         padding: 0;
@@ -738,7 +738,6 @@ footer {
 
         .footer-title {
             margin: 20px 0;
-            color: var(--zo-heading-primary);
         }
 
         .col-wrapper {
@@ -759,16 +758,39 @@ footer {
             min-width: 150px;
         }
 
-        .footer-links {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
+        // .footer-links {
+        //     display: flex;
+        //     flex-direction: column;
+        //     gap: 10px;
 
-            a {
-                text-decoration: none;
+        //     a {
 
-                &:hover {
-                    color: var(--zo-theme-primary);
+        //         &:hover {
+        //             color: var(--zo-theme-primary);
+        //         }
+        //     }
+
+        //     i {
+        //         color: var(--zo-theme-primary);
+        //         font-size: 24px;
+        //     }
+        // }
+
+        ul.footer-links {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+
+            li {
+                margin: 10px 0;
+
+                a {
+                    text-decoration: none;
+                    color: var(--zo-text-body);
+
+                    &:hover {
+                        color: var(--zo-theme-primary);
+                    }
                 }
             }
 
@@ -776,35 +798,26 @@ footer {
                 color: var(--zo-theme-primary);
                 font-size: 24px;
             }
+
         }
 
     }
 
+
     .copyright {
+        padding: 25px 0;
         display: flex;
         align-items: center;
-        min-height: 74px;
-        min-width: 100%;
-        background-color: var(--zo-bg-copyright);
+        // margin: auto;
+        justify-content: space-between;
 
-        .copyright-container {
+        .icons {
             display: flex;
-            align-items: center;
-            // margin: auto;
-            justify-content: space-between;
-
-            p {
-                margin: 0;
-            }
-
-            .icons {
-                display: flex;
-                flex-direction: row;
-                flex-wrap: nowrap;
-                gap: 20px;
-                color: var(--zo-icon-pr);
-                font-size: var(--zo-fz-h3);
-            }
+            flex-direction: row;
+            flex-wrap: nowrap;
+            gap: 20px;
+            color: var(--zo-icon-pr);
+            font-size: var(--zo-fz-h3);
         }
     }
 }
