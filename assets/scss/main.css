@@ -1311,6 +1311,53 @@ img {
   width: 100%;
 }
 
+footer .footer-row .footer-title {
+  margin: 20px 0;
+}
+footer .footer-row .col-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 25%;
+}
+footer .footer-row .left-col,
+footer .footer-row .right-col {
+  min-width: 150px;
+}
+footer .footer-row ul.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+footer .footer-row ul.footer-links li {
+  margin: 10px 0;
+}
+footer .footer-row ul.footer-links li a {
+  text-decoration: none;
+  color: var(--zo-text-body);
+}
+footer .footer-row ul.footer-links li a:hover {
+  color: var(--zo-theme-primary);
+}
+footer .footer-row ul.footer-links i {
+  color: var(--zo-theme-primary);
+  font-size: 24px;
+}
+footer .copyright {
+  padding: 25px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .copyright .icons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 20px;
+  color: var(--zo-icon-pr);
+  font-size: var(--zo-fz-h3);
+}
+
 .hero-section {
   background: var(--zo-bg-light-blue);
 }
@@ -1866,51 +1913,4 @@ img {
 }
 .newsletter-section .newsletter-mail input:focus {
   outline: none;
-}
-
-footer .footer-row .footer-title {
-  margin: 20px 0;
-}
-footer .footer-row .col-wrapper {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 25%;
-}
-footer .footer-row .left-col,
-footer .footer-row .right-col {
-  min-width: 150px;
-}
-footer .footer-row ul.footer-links {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-footer .footer-row ul.footer-links li {
-  margin: 10px 0;
-}
-footer .footer-row ul.footer-links li a {
-  text-decoration: none;
-  color: var(--zo-text-body);
-}
-footer .footer-row ul.footer-links li a:hover {
-  color: var(--zo-theme-primary);
-}
-footer .footer-row ul.footer-links i {
-  color: var(--zo-theme-primary);
-  font-size: 24px;
-}
-footer .copyright {
-  padding: 25px 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-footer .copyright .icons {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  gap: 20px;
-  color: var(--zo-icon-pr);
-  font-size: var(--zo-fz-h3);
 }/*# sourceMappingURL=main.css.map */
