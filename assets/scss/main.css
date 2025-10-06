@@ -1264,7 +1264,8 @@ img {
   min-height: 91px;
   background-color: var(--zo-bg-light-blue);
 }
-.navbar .navbar-container {
+.navbar .nav-wrapper {
+  width: 100%;
   display: flex;
   justify-content: space-between;
 }
@@ -1499,17 +1500,26 @@ img {
   border-radius: 50%;
   background-color: var(--zo-icon-bg);
 }
-.quality-education-section .single-card h5 {
+.quality-education-section .single-card .card-title h5 {
   margin: 20px 0;
 }
-.quality-education-section .single-card hr {
+.quality-education-section .single-card .card-title::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background-color: var(--zo-icon-2);
   margin: 20px 0;
-  max-width: 50px;
-  opacity: 1;
-  border-radius: 5px;
-  border: 2px solid var(--zo-icon-2);
 }
 
+.live-action-video-section .section-title::before {
+  content: "";
+  display: block;
+  width: 94px;
+  height: 7px;
+  background-color: var(--zo-icon-2);
+  margin: 20px auto;
+}
 .live-action-video-section .left-content {
   display: flex;
   flex-direction: column;

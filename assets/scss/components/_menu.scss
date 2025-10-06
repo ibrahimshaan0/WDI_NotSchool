@@ -2,7 +2,8 @@
     min-height: 91px;
     background-color: var(--zo-bg-light-blue);
 
-    .navbar-container {
+    .nav-wrapper {
+        width: 100%;
         display: flex;
         justify-content: space-between;
     }
