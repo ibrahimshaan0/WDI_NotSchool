@@ -502,6 +502,22 @@
   }
 }
 
+@keyframes floatLeftRight {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-20px);
+  }
+}
+@keyframes floatUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-30px);
+  }
+}
 .primary-btn {
   display: inline-block;
   padding: 15px 40px;
@@ -1117,6 +1133,22 @@
   }
 }
 
+@keyframes floatLeftRight {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-20px);
+  }
+}
+@keyframes floatUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-30px);
+  }
+}
 /*-----------------------------------------------------------------------------------
 
     Theme Name: NotSchool – HTML5 Template
@@ -1415,6 +1447,7 @@ footer .copyright .icons {
   top: 40%;
   left: -80px;
   max-width: 182px;
+  animation: floatLeftRight 3s ease-in-out infinite alternate;
   z-index: 3;
 }
 .hero-section .right-content .top-left-img img {
@@ -1451,6 +1484,7 @@ footer .copyright .icons {
   transform: translate(0, -50%);
   max-width: 196px;
   z-index: 3;
+  animation: floatUpDown 3s ease-in-out infinite alternate;
 }
 .hero-section .right-content .right-center-img img {
   max-width: 196px;
@@ -1510,6 +1544,7 @@ footer .copyright .icons {
   left: 0;
   max-width: 219px;
   z-index: 3;
+  animation: floatLeftRight 3s ease-in-out infinite alternate;
 }
 .hero-section .right-content .bottom-left-img img {
   max-width: 219px;
@@ -1534,6 +1569,11 @@ footer .copyright .icons {
   color: var(--zo-heading-primary);
 }
 
+.quality-education-section .edu-card-carrousel {
+  padding: 0 20px 25px 0;
+  overflow: hidden;
+  width: 100%;
+}
 .quality-education-section .single-card {
   padding: 35px 40px;
   box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
@@ -1565,7 +1605,7 @@ footer .copyright .icons {
   width: 94px;
   height: 7px;
   background-color: var(--zo-icon-2);
-  margin: 20px auto;
+  margin: 20px 0;
 }
 .live-action-video-section .left-content {
   display: flex;
@@ -1867,12 +1907,13 @@ footer .copyright .icons {
   color: var(--zo-theme-secondary);
 }
 
-.brand-logo-section .brand-logos {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
+.brand-logo-section .brand-logo-carrousel {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 100%;
+}
+.brand-logo-section .brand-logo-carrousel .swiper-wrapper {
+  transition-timing-function: liner !important;
 }
 .brand-logo-section .single-logo {
   max-width: 150px;
