@@ -1645,6 +1645,7 @@ footer .copyright .icons {
   left: 0;
   max-width: 233px;
   z-index: 3;
+  animation: floatLeftRight 3s ease-in-out infinite alternate;
 }
 .live-action-video-section .right-content .bottom-left-img img {
   max-width: 233px;
@@ -1664,10 +1665,11 @@ footer .copyright .icons {
 .live-action-video-section .right-content .right-center-img {
   position: absolute;
   right: 10%;
-  bottom: 40%;
+  bottom: 35%;
   transform: translate(0, 50%);
   max-width: 132px;
   z-index: 3;
+  animation: floatLeftRight 3s ease-in-out infinite alternate;
 }
 .live-action-video-section .right-content .right-center-img img {
   max-width: 132px;
@@ -1865,6 +1867,10 @@ footer .copyright .icons {
 
 .client-review-section {
   background-color: var(--zo-bg-light-blue);
+}
+.client-review-section .review-carrousel {
+  width: 100%;
+  overflow: hidden;
 }
 .client-review-section .review-card {
   text-align: center;

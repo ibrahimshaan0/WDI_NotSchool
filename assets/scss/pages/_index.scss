@@ -386,6 +386,7 @@
             left: 0;
             max-width: 233px;
             z-index: 3;
+            animation: floatLeftRight 3s ease-in-out infinite alternate;
 
             img {
                 max-width: 233px;
@@ -405,10 +406,11 @@
         .right-center-img {
             position: absolute;
             right: 10%;
-            bottom: 40%;
+            bottom: 35%;
             transform: translate(0, 50%);
             max-width: 132px;
             z-index: 3;
+            animation: floatLeftRight 3s ease-in-out infinite alternate;
 
             img {
                 max-width: 132px;
@@ -658,6 +660,11 @@
 
 .client-review-section {
     background-color: var(--zo-bg-light-blue);
+
+    .review-carrousel {
+        width: 100%;
+        overflow: hidden;
+    }
 
     .review-card {
         text-align: center;
